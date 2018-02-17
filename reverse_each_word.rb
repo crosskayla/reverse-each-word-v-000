@@ -3,4 +3,4 @@ def reverse_each_word(string)
 end
 
 test_string = "Hey there, you!"
-print reverse_each_word()
+print reverse_each_word(test_string)
