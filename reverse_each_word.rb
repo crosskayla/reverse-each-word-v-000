@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  return string.split
+  string.split.each {|word| word.reverse}
 end
 
 test_string = "Hey there, you!"
